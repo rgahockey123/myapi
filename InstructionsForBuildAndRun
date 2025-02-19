@@ -1,0 +1,4 @@
+# this builds the podman image with the name 
+podman build . -t "myapi:latest"
+# this runs the image - which allows a user from a web to invoke the running container
+podman run --rm -p 8080:8080 myapi:latest
