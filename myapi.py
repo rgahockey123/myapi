@@ -1,4 +1,4 @@
-#myapii
+#myapi
 from flask import Flask, jsonify
 import subprocess
 
